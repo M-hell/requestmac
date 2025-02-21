@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const sampleSchema = new mongoose.Schema(
   {
     address: {
-      type: mongoose.Schema.Types.ObjectId,
+      type: String,
       ref: "User",
     },
   },
